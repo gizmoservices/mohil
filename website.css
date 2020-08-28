@@ -1,0 +1,111 @@
+html{
+	background: #111111;
+	text-align: justify-all;
+	color:#555555;
+}
+
+body{
+	background: #111111;
+	font-color:white;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  	display:block;
+  	width: 25%;
+  	height: 25%;
+ 	margin-left: auto;
+  	margin-right: auto;
+  	border-radius:15%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 25%;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(to top right, rgba(0,255,255,0.2), rgba(255,0,0,0.8));
+  color:black;
+  overflow: hidden;
+  width: 25%;
+  margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 10%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+  margin-top: 10%;
+}
+.text {
+  white-space: nowrap; 
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.center
+{
+	text-align:center;
+	display:block;
+	font-size:25px;
+	color:#bbbbbb;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+.hborder{
+	background-color: rgba(200,15,50,0.6);
+	margin-left: 35%;
+	margin-right: 35%;
+	border-color:rgba(255,0,255,0.6);
+	color:#111111;
+	font-weight: bolder;
+	background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,0.8));
+}
+
+.h2border{
+background-color: rgba(100,100,100,0.6);
+	margin-left: 35%;
+	margin-right: 35%;
+	border-color:rgba(255,0,255,0.6);
+	color:#111111;	
+	text-align:center;
+	font-weight: bolder;
+	background-image: linear-gradient(rgba(0,0,0,0),rgba(150,150,150,0.5));
+}
+
+hr{
+    border:2px solid grey;
+    opacity:0.1;
+    }
+
+.hr2{
+    border:2px solid blue;
+    opacity:0.2;
+    }  
+
+mark{
+	background-color: rgba(100,100,100,0.6);
+	background-image: linear-gradient((rgba(0,0,0,0),rgba(150,150,150,0.5));
+} 
+
+.profileStyle{
+	background-image: linear-gradient(rgba(0,0,0,0),rgba(150,150,150,0.5));
+		margin:auto;
+}
+
+.navbar .nav-item:hover .nav-link{ 
+	background-color: #000;}
